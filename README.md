@@ -1,0 +1,2 @@
+# huffman-compression
+During a faculty course called digital computers I have developed a project that calculates the Shannon Information/Entropy for text sequences/words and which compresses the information using the Huffman-Tree algorithm and it's also able to decode it. Some techniques that were used to develop this project include: bit arrays, generic hash-tables with balanced generic binary trees used if collisions occur, generic min-heap and much more. 
