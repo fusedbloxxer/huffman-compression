@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1585951614 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\main.c
+	<stdio.h>
+	"utilities.h"
+	"shannon.h"
+	"huffman.h"
+	"heap.h"
+
+1585947075 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\utilities.c
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+
+1585945598 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\utilities.h
+	<stdbool.h>
+
+1585940849 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\shannon.c
+	"hash_table.h"
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1585842628 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\shannon.h
+	"hash_table.h"
+
+1585993634 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\avl_tree.c
+	"utilities.h"
+	"avl_tree.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1585758549 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\avl_tree.h
+	"node.h"
+
+1585946436 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\hash_table.c
+	"hash_table.h"
+	"avl_tree.h"
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1585792858 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\hash_table.h
+	"avl_tree.h"
+
+1585989437 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\heap.c
+	"avl_tree.h"
+	<string.h>
+	<stdint.h>
+	"node.h"
+	"heap.h"
+
+1585755415 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\heap.h
+	"utilities.h"
+	<stdlib.h>
+
+1585758535 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\node.h
+	"weight_data.h"
+
+1585698776 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\weight_data.h
+
+1585989578 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\huffman.c
+	"hash_table.h"
+	"utilities.h"
+	"huffman.h"
+	"shannon.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1585946302 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\huffman.h
+	"hash_table.h"
+
+1585793612 source:d:\personal\mydocs\academic\facultate\mips\shannon\shannon\node.c
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"node.h"
+
+1044037102 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\cmemleak.h
+
+1044040692 d:\personal\mydocs\academic\facultate\mips\shannon\shannon\cmemleak.c
+	"CMemLeak.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+
+1585993634 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\avl_tree.c
+	"utilities.h"
+	"avl_tree.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1585945598 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\utilities.h
+	<stdbool.h>
+
+1585758549 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\avl_tree.h
+	"node.h"
+
+1585758535 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\node.h
+	"weight_data.h"
+
+1585698776 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\weight_data.h
+
+1585755415 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\heap.h
+	"utilities.h"
+	<stdlib.h>
+
+1585946436 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\hash_table.c
+	"hash_table.h"
+	"avl_tree.h"
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1585792858 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\hash_table.h
+	"avl_tree.h"
+
+1585989437 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\heap.c
+	"avl_tree.h"
+	<string.h>
+	<stdint.h>
+	"node.h"
+	"heap.h"
+
+1585989578 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\huffman.c
+	"hash_table.h"
+	"utilities.h"
+	"huffman.h"
+	"shannon.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1585946302 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\huffman.h
+	"hash_table.h"
+
+1585842628 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.h
+	"hash_table.h"
+
+1585994218 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\main.c
+	<stdio.h>
+	"utilities.h"
+	"shannon.h"
+	"huffman.h"
+	"heap.h"
+
+1585793612 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\node.c
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"node.h"
+
+1585940849 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.c
+	"hash_table.h"
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1585947075 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\utilities.c
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+
