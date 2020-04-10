@@ -161,3 +161,16 @@ double words_entropy(const void * const data, const unsigned int length, const u
 
     return entropy;
 }
+
+double huffman_entropy(struct node * huffman_node, const unsigned int level, const unsigned int length)
+{
+    if (huffman_node != NULL)
+    {
+        if (huffman_node->left_child == NULL && huffman_node->right_child == NULL)
+        {
+            return level * huffman_node->info.total / (double) length;
+        }
+        return huffman_entropy(huffman_node->left_child, level + 1, length) + huffman_entropy(huffman_node->right_child, level + 1, length);
+    }
+    return 0;
+}

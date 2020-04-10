@@ -48,4 +48,6 @@ int parse_words(struct hash_table * table, const void * const data, const unsign
 
 struct hash_table * frequency_hash_table(const void * const data, const unsigned int length, const unsigned int specifier, const unsigned int table_size, int (*parse_data)(struct hash_table*, const void * const data, const unsigned int length, const unsigned int specifier));
 
+double huffman_entropy(struct node * huffman_node, const unsigned int level, const unsigned int length);
+
 #endif // _SHANNON_H_

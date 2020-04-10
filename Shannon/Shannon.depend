@@ -133,7 +133,7 @@
 	"node.h"
 	"heap.h"
 
-1585989578 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\huffman.c
+1586519237 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\huffman.c
 	"hash_table.h"
 	"utilities.h"
 	"huffman.h"
@@ -147,10 +147,10 @@
 1585946302 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\huffman.h
 	"hash_table.h"
 
-1585842628 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.h
+1586518024 c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.h
 	"hash_table.h"
 
-1585994218 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\main.c
+1586519273 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\main.c
 	<stdio.h>
 	"utilities.h"
 	"shannon.h"
@@ -164,7 +164,7 @@
 	<stdio.h>
 	"node.h"
 
-1585940849 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.c
+1586518041 source:c:\users\anonymousclass\workfolder\git\huffman-compression\shannon\shannon.c
 	"hash_table.h"
 	"utilities.h"
 	<stdlib.h>

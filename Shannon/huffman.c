@@ -631,18 +631,22 @@ int encode_huffman_file(const char * input_file_name, const char * output_file_n
 
     if (print_flag == true)
     {
+        /// VIEW THE SHANNON-INFORMATION
+        printf("View the Shannon Entropy for the Huffman encoding:\nPress to continue:"); getc(stdin);
+        printf("The Shannon Entropy for the Huffman Coding is: %f\n\n", huffman_entropy(*huffman_root, 0, length));
+
         /// PRINT THE HUFFMAN TREE
-        printf("THE HUFFMAN TREE IS:\n\n");
+        printf("The Huffman Tree's internal structure:\nPress to continue:"); getc(stdin);
         rsd(*huffman_root, print_node);
         printf("\n\n");
 
         /// PRINT THE HUFFMAN HASH-TABLE
-        printf("The Huffman hash-table is:\n\n");
+        printf("View the Huffman codes:\nPress to continue:"); getc(stdin);
         print_table(*huffman_table, print_huffman_code);
         printf("\n");
 
         /// VIEW THE ENCRYPTED DATA
-        printf("The encrypted data is:\n\n");
+        printf("View encrypted data:\nPress to continue:"); getc(stdin);
         print_bits(encrypted_data, encrypted_length, FORMAT_BITS, false);
         printf("\n\n");
     }
@@ -682,13 +686,14 @@ int decode_huffman_file(const char * input_file_name, const char * output_file_n
     void * decryped_data;
     unsigned int decrypted_length;
 
+    printf("View decrypted data:\nPress to continue:"); getc(stdin);
     if ((result = huffman_decrypt_data(encrypted_data, encrypted_length, &decryped_data, &decrypted_length, huffman_root, huffman_table, print_flag)) != STATUS_SUCCESS)
     {
         free(encrypted_data);
         return result;
     }
-    free(encrypted_data);
 
+    free(encrypted_data);
     if ((result = write_data(output_file_name, decryped_data, decrypted_length)) != STATUS_SUCCESS)
     {
         printf("Could not write decrypted data to file: %s", output_file_name);

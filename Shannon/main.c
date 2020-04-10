@@ -51,9 +51,6 @@ int main()
     printf("Shannon Information for words: %f\n", words_entropy(buffer, buffer_length, 1, 100));
     free(buffer);
 
-    printf("\nView Huffman encryption: ");
-    printf("\nPress key to continue: "); getc(stdin);
-
     /// HUFFMAN-ENCRYPTION-EXERCISE:
 
     struct node * huffman_root;
