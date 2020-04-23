@@ -176,3 +176,87 @@
 	<stdlib.h>
 	<stdio.h>
 
+1587156258 source:d:\git\huffman-compression\shannon\avl_tree.c
+	"utilities.h"
+	"avl_tree.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1587156258 d:\git\huffman-compression\shannon\utilities.h
+	<stdbool.h>
+
+1587156258 d:\git\huffman-compression\shannon\avl_tree.h
+	"node.h"
+
+1587156258 d:\git\huffman-compression\shannon\node.h
+	"weight_data.h"
+
+1587156258 d:\git\huffman-compression\shannon\weight_data.h
+
+1587156258 d:\git\huffman-compression\shannon\heap.h
+	"utilities.h"
+	<stdlib.h>
+
+1587156258 source:d:\git\huffman-compression\shannon\hash_table.c
+	"hash_table.h"
+	"avl_tree.h"
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1587156258 d:\git\huffman-compression\shannon\hash_table.h
+	"avl_tree.h"
+
+1587156258 source:d:\git\huffman-compression\shannon\heap.c
+	"avl_tree.h"
+	<string.h>
+	<stdint.h>
+	"node.h"
+	"heap.h"
+
+1587156258 source:d:\git\huffman-compression\shannon\huffman.c
+	"hash_table.h"
+	"utilities.h"
+	"huffman.h"
+	"shannon.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"heap.h"
+
+1587156258 d:\git\huffman-compression\shannon\huffman.h
+	"hash_table.h"
+
+1587635379 d:\git\huffman-compression\shannon\shannon.h
+	"hash_table.h"
+
+1587634895 source:d:\git\huffman-compression\shannon\main.c
+	<stdio.h>
+	"utilities.h"
+	"shannon.h"
+	"huffman.h"
+	"heap.h"
+
+1587156258 source:d:\git\huffman-compression\shannon\node.c
+	"utilities.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"node.h"
+
+1587156258 source:d:\git\huffman-compression\shannon\utilities.c
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+
+1587635615 source:d:\git\huffman-compression\shannon\shannon.c
+	"hash_table.h"
+	"utilities.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

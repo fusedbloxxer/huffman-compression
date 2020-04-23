@@ -96,9 +96,6 @@ int parse_sequences(struct hash_table * table, const void * const data, const un
             return result;
         }
     }
-
-    /// ADD END-OF-FILE-CHARACTER
-
     return STATUS_SUCCESS;
 }
 
@@ -117,12 +114,16 @@ double sequence_entropy(const void * const data, const unsigned int length, cons
     return entropy;
 }
 
+int total_word_count = 0;
+
 int parse_words(struct hash_table * table, const void * const data, const unsigned int length, const unsigned int specifier)
 {
     if (table == NULL || data == NULL)
     {
         return NULL_ARGUMENT;
     }
+
+    total_word_count = 0;
 
     for (unsigned int i = 0; i < length; ++i)
     {
@@ -135,11 +136,13 @@ int parse_words(struct hash_table * table, const void * const data, const unsign
             }
 
             int result = add_element(table, (unsigned char *)data + i, j - i, hash_code, seq_cmp);
+
             if (result != STATUS_SUCCESS)
             {
                 return result;
             }
 
+            ++total_word_count;
             i = j;
         }
     }
@@ -154,7 +157,7 @@ double words_entropy(const void * const data, const unsigned int length, const u
 
     print_table(table, print_node);
 
-    entropy = hash_table_entropy(table, table->element_count);
+    entropy = hash_table_entropy(table, total_word_count);
 
     clean_table(table);
     free(table);
