@@ -7,7 +7,6 @@
 int main()
 {
     /// SHANNON-INFORMATION-EXERCISE:
-
     int result;
     void * buffer;
     unsigned int buffer_length;

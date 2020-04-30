@@ -88,7 +88,7 @@ int parse_sequences(struct hash_table * table, const void * const data, const un
     }
 
     int result;
-    for (unsigned int i = 0; i < length - specifier + 1; ++i)
+    for (unsigned int i = 0; i < length - specifier + 1; i += specifier)
     {
         result = add_element(table, (unsigned char *)data + i, specifier, hash_code, seq_cmp);
         if (result != STATUS_SUCCESS)
@@ -104,7 +104,7 @@ double sequence_entropy(const void * const data, const unsigned int length, cons
     double entropy = 0.0;
     struct hash_table * table = frequency_hash_table(data, length, specifier, table_size, &parse_sequences);
 
-    entropy = hash_table_entropy(table, length - specifier + 1);
+    entropy = hash_table_entropy(table, length / specifier);
 
     print_table(table, print_node);
 
